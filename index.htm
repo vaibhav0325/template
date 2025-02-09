@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .content{
+            background-color:white;
+            width: 100%;
+            height: 30px;
+            position: fixed;
+            box-shadow: 5px 5px 29px black;
+            z-index: 1;
+            font-size: x-large;
+            top:0;
+        }
+        .container{
+            position: relative;
+            /* top: 100px; */
+        }
+        img{
+            width: 100vw;
+            height:100vh;
+            
+        }
+        nav{
+            display: inline-block;
+            position: relative;
+        }
+        #d{
+            position: absolute;
+            right: 20px;
+            
+        }
+        #c{
+            position: absolute;
+            right: 110px;
+        }
+        #b{
+            position: absolute;
+            right: 190px;
+        }
+        #a:hover,#b:hover,#c:hover,#d:hover{
+            cursor: pointer;
+            background-color: grey;
+        }
+        #br{
+            position: absolute;
+            top: 100px;
+            right: 800px;
+            margin-top: 300px;
+            font-size: 50px;
+        }
+        .border img {
+        width: 250px;
+        height: 170px;
+        border-radius: 4px;
+        margin: 10px;
+      }
+      .border {
+        display: inline-block;
+        position: relative;
+        margin-left: 10px;
+      }
+      #name {
+        position: absolute;
+        top: -1%;
+        left: 4%;
+        background-color:black;
+        color: white;
+        text-align: center;
+      }
+      input{
+        width:600px;
+      }
+      button{
+        width: 600px;
+      }
+      .fot{
+        background-color: black;
+        color: white;
+        width: 100vw;
+        height:100px;
+        text-align: center;
+        padding-top: 50px;
+        font-size: x-large;
+      }
+      #q,#w{
+        border: 2px solid black;
+        
+      }
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <nav id="a">BR Architect</nav>
+            <nav id="b">Projects</nav>
+            <nav id="c">About</nav>
+            <nav id="d">Contact</nav>
+        </div>
+    </div>
+    <div class="container">
+        <img src="images/building.jpg" alt="">
+        <b><p id="br">BR Architecture</p></b>
+    </div>
+
+
+    <h1>Projects</h1><hr>
+    <div class="box">
+        <div class="border">
+        <img src="images/house2.jpg" alt="">
+        <p id="name"><b>Brick house</b></p></div>
+        <div class="border">
+        <img src="images/house3.jpg">
+        <p id="name"><b>Summer House</b></p></div>
+        <div class="border">
+        <img src="images/house4.jpg" alt="">
+        <p id="name"><b>Renovated</b></p></div>
+        <div class="border">
+            <img src="images/house5.jpg" alt="">
+            <p id="name"><b>Barn House</b></p></div>
+            <div class="border">
+                <img src="images/house3.jpg">
+                <p id="name"><b>Summer House</b></p></div>
+            
+    </div>
+
+    </div>
+    <h1>About</h1><hr>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus repudiandae perferendis provident iste possimus pariatur officiis omnis! Minus tenetur numquam voluptas temporibus ducimus eaque vitae quam eius? Sed, beatae iusto!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia iure a nesciunt quae voluptates doloremque deserunt voluptate, eaque facilis molestias ut? Officia, consequuntur. Natus dolorem ducimus nihil vitae autem ea.</p>
+    <div class="ddd">
+        <div class="border" id="q">
+            <img src="images/team2.jpg" alt="">
+            <h2>John Doe</h2>
+            <p>CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>CONNECT</button>
+        </div>
+        <div class="border" id="w">
+            <img src="images/team1.jpg" alt="">
+            <h2>Jane Doe</h2>
+            <p>Architect</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button>CONNECT</button>
+        </div>
+    </div>
+    <h1>Contact</h1><hr>
+    <p>Lets get in touch and talk about your next project.</p>
+    <input type="text" placeholder="Name"><br><br>
+    <input type="text" placeholder="Email"><br><br>
+    <input type="text" placeholder="Subject"><br><br>
+    <input type="text" placeholder="Comment"><br><br>
+    <button style="background-color: black; color: white;">SEND MESSAGE</button><hr><br>
+
+<div>
+    <img src="images/map.jpg" alt="">
+</div>
+<div class="fot">
+    <p><em>powered by </em> @ BR Archtechure &#174</p>
+</div>
+</body>
+</html>
